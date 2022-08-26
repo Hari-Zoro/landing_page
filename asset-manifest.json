@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/landing_page/static/css/main.1676d6f1.css",
+    "main.js": "/landing_page/static/js/main.3229744c.js",
+    "static/media/House.png": "/landing_page/static/media/House.d8b4c1f898b878127a88.png",
+    "static/media/Collectables.png": "/landing_page/static/media/Collectables.6edee1298f0bff54ce59.png",
+    "static/media/Car.png": "/landing_page/static/media/Car.a7f5aee63acbbeb909a5.png",
+    "static/media/Vector6.png": "/landing_page/static/media/Vector6.0f61ca6837dfd397df04.png",
+    "static/media/Vector5.png": "/landing_page/static/media/Vector5.f988345dcf7908d6100b.png",
+    "static/media/Vector4.png": "/landing_page/static/media/Vector4.6eb01a99d462c658fddb.png",
+    "static/media/Guide3.png": "/landing_page/static/media/Guide3.28cfda533f9a2b72a05f.png",
+    "static/media/Guide2.png": "/landing_page/static/media/Guide2.9251f07db6fda05834fa.png",
+    "static/media/Guide1.png": "/landing_page/static/media/Guide1.03bdf8d6509bf9cc6d7e.png",
+    "static/media/logo2.png": "/landing_page/static/media/logo2.ecaa26936e621f6063f1.png",
+    "index.html": "/landing_page/index.html",
+    "main.1676d6f1.css.map": "/landing_page/static/css/main.1676d6f1.css.map",
+    "main.3229744c.js.map": "/landing_page/static/js/main.3229744c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1676d6f1.css",
+    "static/js/main.3229744c.js"
+  ]
+}
