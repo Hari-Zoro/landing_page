@@ -1,0 +1,5 @@
+.testimonials_wrapper{
+    display: flex;
+    flex-direction: row;
+    /* overflow-x: scroll; */
+}

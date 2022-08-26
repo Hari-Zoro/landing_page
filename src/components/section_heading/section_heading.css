@@ -1,0 +1,12 @@
+.heading {
+    font-family: var(--Poppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 44px;
+    text-align: center;
+    color: #ffffff;
+    margin:1.1em 0;
+    margin-top: 2em;
+  }
+  

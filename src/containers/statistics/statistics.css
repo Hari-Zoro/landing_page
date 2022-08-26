@@ -1,0 +1,6 @@
+.statistics_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* width: max-content; */
+}

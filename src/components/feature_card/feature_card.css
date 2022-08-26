@@ -1,0 +1,33 @@
+.feature_card{
+    margin: 0 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 2em;
+    width: 312px;
+}
+
+.feature_card_title{
+    font-family: var(--popins);
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+
+}
+
+.feature_card_img{
+    height: 120px;
+    width: 120px;
+    margin: 2.7em 1em;
+}
+
+.feature_card_para{
+    /* display: flex; */
+    justify-content: center;
+    font-size: 19px;
+    text-align: center;
+    line-height: 1.4;
+
+}

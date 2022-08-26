@@ -1,0 +1,54 @@
+.adapp_navbar{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    margin:2em 9em; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_links{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar_logo{
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 1.5;
+color: #828282;
+}
+
+.logo_img{
+    display: flex;
+    height: 40px;
+    width: 200px;
+    align-self: center;
+}
+
+.adapp_navbar a{
+    /* margin:0 2em; */
+    /* display: flex; */
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    
+    align-items: baseline;
+}
+
+.adapp_navbar .nav_btn{
+    
+/* padding: 0.6em 1.2em; */
+padding: 17px 33px;
+gap: 10px;
+
+width: 191px;
+height: 56px;
+font-size: 18px;
+background: linear-gradient(90deg, #667EEA 0%, #764BA2 100%);
+border-radius: 10px;
+color: #ffffff;
+}

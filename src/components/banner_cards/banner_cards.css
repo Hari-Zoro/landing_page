@@ -1,0 +1,89 @@
+.ban_cards {
+    padding: 8px;
+    border: 1px solid rgb(103, 103, 103);
+    border-radius: 15px;
+    box-shadow: rgba(128, 128, 128, 0.336) 0px 7px 29px 0px;
+}
+
+.ban_card_img_section {
+    height: 240px;
+    width: 200px;
+}
+
+.ban_card_img {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../assets/Car.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.ban_card_content {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0.5em 0.5em 0.5em;
+}
+
+.ban_card_content_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 1em;
+}
+
+.ban_card_content_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.card_title,
+.latest_bid,
+.Bid_amount_eth {
+    font-family: var(--Poppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+.Bid_amount_dollor {
+    font-family: var(--Poppins);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.2;
+
+    text-align: right;
+
+    color: #C1C1C1;
+}
+
+.card_desc {
+    font-family: var(--Roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
+    color: #C1C1C1;
+}
+
+.card_element {
+    font-family: var(--Roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
+    color: #C1C1C1;
+}
+
+.angle {
+    transform: rotate(-45deg);
+}
+
+.angle1 {
+    transform: rotate(45deg);
+}

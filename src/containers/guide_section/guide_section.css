@@ -1,0 +1,40 @@
+
+.guide_section_title{
+    font-family: var(--Poppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 44px;
+    text-align: center;
+    color: #ffffff;
+    /* margin:1.1em 0; */
+    margin-top: 2em;
+}
+.guide_section_wrapper{
+    display: flex;
+    flex-direction: row;
+    margin: 12em 8em ;
+    margin-bottom: 15em;
+}
+
+.guide_section_left{
+    width: 30%;
+}
+
+.guide_section_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+}
+
+.guide_section_para{
+    font-family: var(--Poppins);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    color: #ffffff;
+    margin:1.1em 0;
+}

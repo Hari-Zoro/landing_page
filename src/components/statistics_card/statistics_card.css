@@ -1,0 +1,33 @@
+.stats_card{
+    margin: 1.2em 4.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid green; */
+    /* flex:1; */
+}
+
+.stats_key{
+    font-family:var(--popins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.stats_value{
+    margin: 0.9em 0;
+    font-family:var(--popins);
+    font-style: normal;
+    font-weight: 600;
+font-size: 36px;
+
+text-align: center;
+
+background: linear-gradient(90deg, #E0C3FC 0%, #8EC5FC 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}

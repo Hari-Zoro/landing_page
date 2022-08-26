@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--font-family);
+    font-size: 62.5%;
+    height: auto;
+    width: 100%;
+    background: var(--color-bg);
+    color: #ffffff;
+}
+
+
+.mid-line{
+    margin: 5em 0;
+    justify-content: center;
+    display: flex;
+}
+
+.feat-line{
+    height: 4px;
+    width: 30%;
+    outline: none;
+    background: linear-gradient(90deg, #667EEA 0%, #764BA2 100%);
+    border: none;
+}

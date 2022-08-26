@@ -1,0 +1,51 @@
+.category_card {
+    margin: 30px;
+    background: #1c1c1c;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid rgb(103, 103, 103);
+    /* box-shadow: rgba(128, 128, 128, 0.336) 0px 7px 29px 0px; */
+  }
+
+  .category_card_img_section{
+    width: 320px;
+    height: 380px;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .category_card:hover .category_card_img{
+      /* filter: blur(1px); */
+      cursor: pointer;
+      scale: 1.1;
+  }
+
+  .category_card_img{
+    height: 100%;
+    width: 100%;
+    background-image: url("../../assets/Car.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    transition: 1s ease;
+  }
+
+  .category_card_title{
+    font-family: var(--Poppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 10px;
+    color: #ffffff;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
