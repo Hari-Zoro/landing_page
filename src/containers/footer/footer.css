@@ -8,13 +8,22 @@
 .footer_first_section{
     width: 30%;
 }
-
-.footer_logo{
+/* 
+.{
     font-size: 2.8rem;
     font-weight: 700;
     letter-spacing: 0.5;
     color:#828282;
-}
+} */
+
+.footer_logo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.5;
+    color: #828282;
+    text-decoration: none;
+    }
 
 .footer_left_para{
     padding: 0.6em 0 1.2em 0;

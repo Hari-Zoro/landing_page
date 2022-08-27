@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 body{
@@ -12,6 +12,7 @@ body{
     width: 100%;
     background: var(--color-bg);
     color: #ffffff;
+    scrollbar-width: 0;
 }
 
 

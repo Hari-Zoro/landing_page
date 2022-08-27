@@ -8,7 +8,7 @@ const Footer = (props) => {
 
         <div className="footer_wrapper">
             <div className="footer_first_section">
-                <p className="footer_logo">Logo</p>
+                <p className="footer_logo">Auction</p>
                 <p className="footer_left_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since th</p>
                 <div className="footer_icons">
                 <i class="fa-brands fa-facebook"></i>
