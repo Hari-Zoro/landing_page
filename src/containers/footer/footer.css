@@ -19,7 +19,7 @@
 .footer_logo{
     font-style: normal;
     font-weight: 700;
-    font-size: 44px;
+    font-size: 2.75rem;
     line-height: 1.5;
     color: #828282;
     text-decoration: none;
@@ -59,7 +59,7 @@
 
 .footer_para{
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.28;
 }
@@ -67,7 +67,7 @@
 .footer_heading_2{
     Font-family: var(--Poppins);
     font-weight: 500;
-    Font-size: 20px;
+    Font-size: 1.25rem;
     Line-height: 1;
     margin-bottom:1.2em;
 }
@@ -79,6 +79,54 @@
 
 .footer_second_section a, .footer_third_section a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .footer_logo{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.188rem;
+        line-height: 1.5;
+        color: #828282;
+        text-decoration: none;
+        }
+    
+    .footer_left_para{
+        padding: 0.6em 0 1.2em 0;
+        padding-right: 2em;
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+    
+    .footer_icons i{
+        font-size: 1.08rem;
+        margin: 0 1em 0 0
+    }
+
+    .footer_heading_2{
+        Font-family: var(--Poppins);
+        font-weight: 500;
+        Font-size: 1rem;
+        Line-height: 1;
+        margin-bottom:1.2em;
+    }
+
+    .footer_para{
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.28;
+    }
+    
+    
+.footer_second_section a, .footer_third_section a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
 }

@@ -1,0 +1,189 @@
+.all-cards{
+    margin-left: 9%;
+}
+
+.all-cards-open{
+    margin-left: 18%;
+}
+
+.auction-icon-wrapper{
+    box-sizing: border-box;
+    width: 400px;
+    height: 600px;
+    margin-left: 3%;
+    margin-top: 5%;
+    position: relative;
+    border-radius: 15px;
+    vertical-align: middle;
+    background: linear-gradient(155.14deg, rgba(255, 255, 255, 0) -2.13%, rgba(255, 255, 255, 0.15) 136.58%);
+    filter: drop-shadow(0px 4px 49px rgba(0, 7, 72, 0.12));
+    backdrop-filter: blur(25px);
+    overflow: hidden;
+    border: 2px solid #3c4152;
+    display: inline-block;
+}
+
+.auction-icon-wrapper:after{
+    content:"";
+    display: block;
+    padding-bottom: 100%;
+}
+
+
+
+.auction-wrapper{
+    box-sizing: border-box;
+    width: 365px;
+    height: 440px;
+    margin-left: 17.5px;
+    margin-top: 17.5px;
+    position: relative;
+    border-radius: 15px;
+    vertical-align: middle;
+    background-color:rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+    display: inline-block;
+    transition: height 0.3s;
+}
+
+.auction-icon-wrapper:hover > .auction-wrapper {
+    height: 365px;
+}
+
+
+.bid-now{
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+    visibility: hidden;
+    text-align: center;
+    background-color: #2F80ED;
+    border-radius: 45px;
+    margin: 5%;
+    padding: 4%;
+    font-size: 1.25;
+    font-family: Poppins;
+    font-weight: 600;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+.auction-icon-wrapper:hover > .bid-now {
+    visibility: visible;
+    opacity: 1;
+}
+
+.bid-now:hover{
+    background-color: #1d57a2;
+    cursor: pointer;
+}
+
+.auction-icon{
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    max-width: 120%;
+    max-height: 120%;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+.ends-in{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.35);
+    color: rgba(255, 63, 63, 1);
+    font-size: 1rem;
+    font-family: Poppins;
+    font-weight: 600;
+    top:8px;
+    right: 8px;
+    padding: 3px 20px;
+    border-radius: 20px;
+}
+
+.auction-name{
+    font-size: 1.2rem;
+    font-family: Poppins;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 4%;
+    margin-top: 5%;
+    width: 80%;
+}
+
+.auction-unique-id{
+    font-size: 0.9rem;
+    margin-left: 2%;
+}
+
+.auction-bid-details{
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: Poppins;
+    font-weight: 600;
+    display: flex;
+    margin-top: 0.5%;
+    justify-content: space-between;
+}
+
+.auction-details-titles{
+    font-size: 1rem;
+    font-family: Poppins;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 6%;
+    width: 30%;
+}
+
+.latest-title{
+    margin-top:1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-eth{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5%;
+}
+
+.more-details{
+    margin-left: 4%;
+    width: 80%;
+    font-size: 0.95rem;
+    font-weight: 0;
+    font-family: Poppins;
+
+}
+
+.eth-price{
+    width: 20%;
+    font-size: 1rem;
+    font-family: Poppins;
+    font-weight: 600;
+    vertical-align: top;
+    text-align: right;
+    margin-right: 4%;
+}
+
+.specs{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4%;
+    font-family: Poppins;
+    font-weight: 0;
+    width: 60%;
+}
+
+.price-dollars-eth{
+    font-size: 1.25rem;
+    color: rgba(193, 193, 193, 1);
+    font-weight: 600;
+    font-family: Poppins;
+    width: 30%;
+    text-align: right;
+    margin-right: 4%;
+}

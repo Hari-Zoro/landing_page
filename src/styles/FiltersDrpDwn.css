@@ -1,0 +1,58 @@
+.title-filter{
+    font-size: 1.25rem;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: -5%;
+}
+
+.filter-fields-opts{
+    font-size: 1.25rem;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-align: center;
+    width: 90%;
+    margin-top: 2%;
+    color: rgba(188, 188, 188, 1);
+}
+
+.search-for-filters{
+    margin-top: 3%;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(36, 36, 36, 1);
+    font-size: 1.25rem;
+}
+
+.input-srch{
+    color: white;
+    padding: 5%;
+    width: 80%;
+    margin-left: -5%;
+    border-radius: 10px;
+    background-color: rgba(36, 36, 36, 1);
+    border-style: none;
+    font-size: 1rem;
+}
+
+.input-srch:focus{
+    outline: none;
+}
+
+.srch-mag{
+    top: 30%;
+    left: 90%;
+    position: absolute;
+    background-color: rgba(36, 36, 36, 1);
+}
+
+.name-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type="checkbox"]{
+    padding: 10px;
+    background-color: rgba(36, 36, 36, 1);
+}

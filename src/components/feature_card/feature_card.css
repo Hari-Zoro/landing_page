@@ -13,21 +13,42 @@
     font-family: var(--popins);
 font-style: normal;
 font-weight: 600;
-font-size: 32px;
+font-size: 2rem;
 
 }
 
 .feature_card_img{
-    height: 120px;
-    width: 120px;
+    height: 12em;
+    width: 12em;
     margin: 2.7em 1em;
 }
 
 .feature_card_para{
     /* display: flex; */
     justify-content: center;
-    font-size: 19px;
+    font-size: 1.188rem;
     text-align: center;
     line-height: 1.4;
 
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .feature_card_title{
+    font-size: 1.6rem;
+    
+    }
+    
+    .feature_card_img{
+        height: 9.6em;
+        width: 9.6em;
+        margin: 2.16em 0.8em;
+    }
+    
+    .feature_card_para{
+ 
+        font-size: 0.95rem;
+    }
+    
 }

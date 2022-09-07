@@ -1,0 +1,21 @@
+.sorting-opts{
+    margin: 0;
+    text-align: left;
+    padding-top: 5%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+}
+
+.opts-sort{
+    margin: 0;
+    text-align: left;
+    padding: 2.5% 5%;
+    border-radius: 10px;
+}
+
+.opts-sort:hover{
+    transition: all 0.5s;
+   cursor:pointer;
+   background-color:#4042E2;
+   border-radius: 10px;
+}

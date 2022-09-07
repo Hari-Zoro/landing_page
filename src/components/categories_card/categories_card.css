@@ -8,8 +8,8 @@
   }
 
   .category_card_img_section{
-    width: 320px;
-    height: 380px;
+    width:  32em;
+    height: 38em;
     overflow: hidden;
     border-radius: 15px;
   }
@@ -35,7 +35,7 @@
     font-family: var(--Poppins);
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 1.875rem;
     margin: 10px;
     color: #ffffff;
     margin-top: 15px;
@@ -44,8 +44,17 @@
   
   
   
-  
-  
-  
-  
-  
+  @media screen and (max-width: 1024px) {
+
+    .category_card_img_section{
+      width:  24em;
+      height: 28.5em;
+      overflow: hidden;
+      border-radius: 15px;
+    }
+    
+    .category_card_title{
+      font-size: 1.406rem;
+    }
+  }
+

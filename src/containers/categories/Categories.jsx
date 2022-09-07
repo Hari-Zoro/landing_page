@@ -13,7 +13,7 @@ const Categories = () => {
     
     <Section_heading heading="Explore categories" />
     
-    <div className="categories_wrapper" >
+    <div className="categories_wrapper slide-top" >
         <Categories_card title="Car" bgimg={Car}/>
         <Categories_card title="Real-Estate" bgimg={House}/>
         <Categories_card title="Collectibles" bgimg={Collectibles}/>

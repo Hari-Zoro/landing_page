@@ -1,39 +1,31 @@
-import React from 'react'
+import React from "react";
 // import { Blog, Features, Footer, Header, Possibility, WhatGPT3} from './containers'
-import { Navbar } from './components'
-import { Banner , Categories , Statistics , Features, Guide_section , Testimonials, Footer} from './containers'
-import './App.css'
+import { Navbar } from "./components";
+import {
+  Banner,
+  Categories,
+  Statistics,
+  Features,
+  Guide_section,
+  Testimonials,
+  Footer,
+} from "./containers";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AuctionCard from "./components/AuctionCards/AuctionCards";
+import HomePage from "./components/HomePage/Homepage";
+import SellAProduct from "./components/SellAProduct/SellAProduct";
 
-const App = () =>{
-    return (
-        <div className="App">
-            <Banner />
-            <Categories />
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/auction" element={<AuctionCard />} />
+        <Route path="/" element={<SellAProduct />} />
+        <Route path="/home" element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
-            <div className="mid-line" >
-                <hr className="feat-line" />
-            </div>
-
-            <Statistics />
-
-            <div className="mid-line">
-                <hr className="feat-line" />
-            </div>
-            
-            <Features />
-
-            <div className="mid-line">
-                <hr className="feat-line" />
-            </div>
-
-            <Guide_section />
-
-            
-
-            <Testimonials />
-            <Footer />
-        </div>
-    )
-}
-
-export default App
+export default App;

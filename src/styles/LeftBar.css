@@ -1,0 +1,195 @@
+.left-bar{
+    width: 300px;
+    position: fixed;
+    top: 13vh;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    height: 100vh;
+    z-index: 1;
+    transition: all 0.3s;
+    
+}
+
+.left-bar-full{
+    width: 300px;
+    position: fixed;
+    top: 13vh;
+    left: 0;
+    background-color: black;
+    height: 100vh;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.bar-logos{
+    vertical-align: middle;
+    padding: 18px;
+    border-radius: 10px ;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+.bar-not-logos{
+    vertical-align: middle;
+    padding: 18px;
+    border-bottom-left-radius:10px ;
+    border-top-left-radius:10px ;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+.bar-logos:hover{
+    background: #333333;
+    cursor: pointer;
+}
+
+.bar-not-logos:hover{
+    background: #333333;
+    cursor: pointer;
+}
+
+.mag{
+    background: #333333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mag:hover{
+    background: #222222;
+}
+
+.entire-logos{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+
+.entire-not-logos{
+    margin-left:5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.entire-logos:hover > .invi-text{
+    display: block;
+}
+
+.entire-not-logos:hover {
+    background: #333333;
+    cursor: pointer;
+}
+
+.search-bar-auct:hover{
+    background: transparent;
+}
+
+.info-text{
+    vertical-align: middle;
+    z-index: 1;
+    padding: 17px;
+    border-radius: 10px ;
+    margin-left: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s;
+    
+}
+
+.info-not-text{
+    vertical-align: middle;
+    padding: 17px;
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    transition: all 0.3s;
+    font-size: 17px;
+}
+
+.home-btn:hover + .home-info{
+    z-index: 1;
+    opacity: 1;
+    visibility: visible;
+    background: #333333;
+}
+
+.dashboard-btn:hover + .dashboard-info{
+    z-index: 1;
+    opacity: 1;
+    visibility: visible;
+    background: #333333;
+}
+
+.history-btn:hover + .history-info{
+    z-index: 1;
+    opacity: 1;
+    visibility: visible;
+    background: #333333;
+}
+
+.ongoing-btn:hover + .ongoing-info{
+    z-index: 1;
+    opacity: 1;
+    visibility: visible;
+    background: #333333;
+}
+
+.completed-btn:hover + .completed-info{
+    z-index: 1;
+    opacity: 1;
+    visibility: visible;
+    background: #333333;
+}
+
+.cancelled-btn:hover + .cancelled-info{
+    z-index: 1;
+    opacity: 1;
+    visibility: visible;
+    background: #333333;
+}
+
+.notifs-btn:hover + .notifs-info{
+    z-index: 1;
+    opacity: 1;
+    visibility: visible;
+    background: #333333;
+}
+
+.support-btn:hover + .support-info{
+    z-index: 1;
+    opacity: 1;
+    visibility: visible;
+    background: #333333;
+}
+
+.settings-btn:hover + .settings-info{
+    z-index: 1;
+    opacity: 1;
+    visibility: visible;
+    background: #333333;
+}
+
+.search-bar-auction{
+    color: white;
+    background: #333333;
+    vertical-align: top;
+    padding: 17px;
+    border-radius: 10px ;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition-delay: 2s;
+}
+
+.user-icon-side{
+    background-color: aqua;
+    /* padding: 20px;  */
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.user-icon-side:hover{
+    cursor: pointer;
+}
+

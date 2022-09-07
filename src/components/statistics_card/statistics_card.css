@@ -11,7 +11,7 @@
     font-family:var(--popins);
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 1.875rem;
 text-align: center;
 
 color: #FFFFFF;
@@ -22,7 +22,7 @@ color: #FFFFFF;
     font-family:var(--popins);
     font-style: normal;
     font-weight: 600;
-font-size: 36px;
+font-size: 2.25rem;
 
 text-align: center;
 
@@ -31,3 +31,22 @@ background: linear-gradient(90deg, #E0C3FC 0%, #8EC5FC 100%);
 -webkit-text-fill-color: transparent;
 background-clip: text;
 }
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .stats_key{
+
+        font-size: 1.5rem;
+    
+    }
+    
+
+    .stats_value{
+        font-size: 2.25rem;
+    
+    }
+}
+

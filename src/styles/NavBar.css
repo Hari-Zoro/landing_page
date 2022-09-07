@@ -1,0 +1,59 @@
+.main-list{
+   display: flex;
+   justify-content: space-between;
+   margin-left: -3%;
+}
+
+.nav-bar-auctions{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0.5% 4%;
+    top: 0;
+    width: 95%;
+    position: fixed;
+    z-index: 3;
+}
+
+.main-list li{
+    user-select: none;
+    list-style: none;
+    display: inline-block;
+    padding: 0.5%;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.main-list li:hover{
+    cursor: pointer;
+    color: rgba(130, 130, 130, 1);;
+}
+
+.connect-now-btn{
+    font-size: 1.2rem;
+    background: linear-gradient(90deg, #667EEA 0%, #764BA2 100%);
+    border-radius: 10px;
+    padding: 1% 2%;
+    transition: all 0.3s    ;
+}
+
+.connect-now-btn:hover{
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 8px 8px;
+    background: linear-gradient(90deg, #5468c0 0%, #905dc4 100%);
+    cursor: pointer;
+}
+
+.open-side{
+    background: #333333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.open-side:hover{
+    background: #2b2a2a;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
