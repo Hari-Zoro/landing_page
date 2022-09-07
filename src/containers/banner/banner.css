@@ -57,16 +57,21 @@ border-radius: 10px;
     height: 80vh;
     width: 68%;
     display: flex;
-    position:relative;
     justify-content: center;
- 
+    align-items: center;
+}
+
+.banner_wrapper_right_inner{
+    border: 8px solid rgb(55, 255, 0);
+    /* display: flex; */
+    position:relative;
 }
 
 .ban_card_1{
     position: absolute;
     z-index: 2;
     top: 62%;
-    left: 39%;
+    left: 50%;
     transform: translate(-50%, -50%) rotate(-20deg);;
     /* transform:  */
 }
@@ -75,7 +80,7 @@ border-radius: 10px;
     position: absolute;
     z-index: 1;
     top: 40%;
-    left: 60%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -83,6 +88,6 @@ border-radius: 10px;
     position: absolute;
     z-index: 2;
     top: 62%;
-    left: 81%;
+    left: 50%;
     transform: translate(-50%, -50%) rotate(20deg);
 }

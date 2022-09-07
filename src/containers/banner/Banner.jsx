@@ -19,9 +19,9 @@ const Banner = () => {
         <button className="banner_btn">Explore</button>
       </div>
       <div className="banner_wrapper_right">
-        <Banner_cards ban_card={"ban_card_1"} img={img1}/>
-        <Banner_cards ban_card={"ban_card_2"} img={img2}/>
-        <Banner_cards ban_card={"ban_card_3"} img={img3}/>
+          <Banner_cards ban_card={"ban_card_1"} img={img1}/>
+          <Banner_cards ban_card={"ban_card_2"} img={img2}/>
+          <Banner_cards ban_card={"ban_card_3"} img={img3}/>        
       </div>
 
     </div>
